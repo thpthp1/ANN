@@ -1,7 +1,5 @@
 import numpy as np
 from numpy.core.numeric import zeros_like
-import scipy
-from sklearn.neural_network import MLPClassifier
 from numba import njit
 
 @njit
